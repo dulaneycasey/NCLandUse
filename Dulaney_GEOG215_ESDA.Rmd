@@ -26,7 +26,7 @@ library(maptools)
 ```{r}
 download.file("https://linc.osbm.nc.gov/explore/dataset/outdoor-recreation-acreage/download/?format=geojson&timezone=America/New_York&lang=en", "C:/Users/Casey/Documents/GEOG215.FA21/Final_project/Data/sp/Land_Owned.zip")
 
-nc_land <- geojson_sf("C:/Users/Casey/Documents/GEOG215.FA21/Final_project/Data/sp/CountyLandAcreage.zip")
+nc_land <- geojson_sf("Final_project/Data/sp/CountyLandAcreage.zip")
 
 head(nc_land)
 
